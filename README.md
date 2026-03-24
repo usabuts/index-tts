@@ -144,8 +144,7 @@ git lfs install
 2. Download this repository:
 
 ```bash
-git clone https://github.com/index-tts/index-tts.git && cd index-tts
-git lfs pull  # download large repository files
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/index-tts/index-tts.git && cd index-tts
 ```
 
 3. Install the [uv package manager](https://docs.astral.sh/uv/getting-started/installation/).
